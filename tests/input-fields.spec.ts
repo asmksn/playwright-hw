@@ -22,7 +22,7 @@ test('Update pet type', async ({ page }) => {
   }
 
   await renamePetType('cat', 'rabbit');
-  await renamePetType('rabbit', 'cat');
+  await renamePetType('rabbit', 'cat')
 });
 
 // test('Update pet type', async ({ page }) => {
